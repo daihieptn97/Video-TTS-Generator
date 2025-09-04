@@ -29,12 +29,36 @@ To run this tool, you need:
 2. ffmpeg installed (for audio and video processing)
 3. Mac OS (uses the built-in `say` command for text-to-speech)
 
+### Installing ffmpeg
+
+**On macOS:**
+```bash
+# Using Homebrew
+brew install ffmpeg
+
+# Verify installation
+ffmpeg -version
+```
+
+**On Windows:**
+1. Download the prebuilt package from [ffmpeg.org](https://ffmpeg.org/download.html) or [gyan.dev](https://www.gyan.dev/ffmpeg/builds/)
+2. Extract the zip file
+3. Add the `bin` folder to your system PATH
+4. Verify installation by opening Command Prompt and typing: `ffmpeg -version`
+
+**On Linux (Ubuntu/Debian):**
+```bash
+sudo apt update
+sudo apt install ffmpeg
+ffmpeg -version
+```
+
 ### Installation
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/video-tts-generator.git
-   cd video-tts-generator
+   git clone https://github.com/daihieptn97/Video-TTS-Generator.git
+   cd Video-TTS-Generator
    ```
 
 2. Install dependencies:
@@ -102,12 +126,36 @@ Công cụ này nhận một file video và một file phụ đề (.srt), tạo
 2. ffmpeg được cài đặt (để xử lý âm thanh và video)
 3. Mac OS (sử dụng lệnh `say` có sẵn để chuyển đổi văn bản thành giọng nói)
 
+### Cài đặt ffmpeg
+
+**Trên macOS:**
+```bash
+# Sử dụng Homebrew
+brew install ffmpeg
+
+# Kiểm tra cài đặt
+ffmpeg -version
+```
+
+**Trên Windows:**
+1. Tải gói đã biên dịch từ [ffmpeg.org](https://ffmpeg.org/download.html) hoặc [gyan.dev](https://www.gyan.dev/ffmpeg/builds/)
+2. Giải nén tệp zip
+3. Thêm thư mục `bin` vào biến PATH của hệ thống
+4. Kiểm tra cài đặt bằng cách mở Command Prompt và gõ: `ffmpeg -version`
+
+**Trên Linux (Ubuntu/Debian):**
+```bash
+sudo apt update
+sudo apt install ffmpeg
+ffmpeg -version
+```
+
 ### Cài đặt
 
 1. Clone repository này:
    ```
-   git clone https://github.com/yourusername/video-tts-generator.git
-   cd video-tts-generator
+   git clone https://github.com/daihieptn97/Video-TTS-Generator.git
+   cd Video-TTS-Generator
    ```
 
 2. Cài đặt các gói phụ thuộc:
